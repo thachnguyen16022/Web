@@ -1,0 +1,100 @@
+.manhinh{
+    display: flex;
+    width: 1920px;
+    padding-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    border-left:  1px solid gray;
+    border-right: 1px solid gray;
+}
+.manhinh .thongtin{
+    padding-top: 70px;
+    width: 50%;
+    padding-left: 300px;
+}
+.manhinh .thongtin .cuahang{
+    padding-bottom: 50px;
+}
+.manhinh .thongtin .cuahang a{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+.manhinh .thongtin .trang{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.manhinh .thongtin .trang a{
+    text-decoration: none;
+}
+.manhinh .thongtin .giaohang{
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: blueviolet;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.manhinh .thongtin .nhap{
+    height: 40px;
+    width: 600px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.manhinh .thongtin .chon{
+    width: 180px;
+    height: 40px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.manhinh .thongtin .nut{
+    display: flex;
+    margin-top: 30px;
+}
+.manhinh .thongtin .nut a{
+    text-decoration: none;
+}
+.manhinh .thongtin .nut .bnt{
+    margin-left: 320px;
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.548);
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+}
+.manhinh .thanhtoan{
+    width:50%;
+    padding-top: 80px;
+    background-color: rgb(243, 240, 240);
+    border-left: 1px solid rgb(212, 212, 212);   
+}
+.manhinh .thanhtoan .chung{
+    margin-left: 50px;
+    color: rgb(68, 67, 67);
+}
+.manhinh .thanhtoan .ttsp{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding-bottom: 30px;
+    width: 500px;
+    border-bottom: 1px solid gray;
+}
+.manhinh .thanhtoan .ttsp .ttsp1{
+    margin-bottom: 15px;
+}
+.manhinh .thanhtoan .ttsp img{
+    width: 50px;
+}
+.manhinh .thanhtoan .tinhtien{
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    width: 510px;
+}
+.manhinh .thanhtoan .tongtien{
+    margin-top: 30px;
+}

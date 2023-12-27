@@ -1,0 +1,505 @@
+body{
+    background-image: url(bapeWallpaper.jpg);
+}
+.manhinh{
+    background-color: rgb(187, 179, 179);
+    width: 100%;
+    background-color:#36121260 ;
+}
+
+.manhinh .gioithieu{
+    display: flex;
+    width: 1350px;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.manhinh .gioithieu .gt1{ 
+    color: yellow;
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: left;   
+}
+.manhinh .gioithieu .gt2{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    margin-left:150px
+}
+.manhinh .gioithieu .gt3{
+    margin-left: 100px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.manhinh .gioithieu .gt3 .gtcn{
+    margin-right: 20px;
+    text-decoration: none;
+    color: yellow;
+    background-color: transparent;
+    border: none;
+    z-index: 11;
+}
+.manhinh .gioithieu .gt3 .gtcn:hover{
+    color:red;
+}
+.manhinh .gioithieu2{
+    width: 1350px;
+    display: flex;
+    margin: auto;
+}
+.manhinh .gioithieu2 .logo{
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.manhinh .gioithieu2 .logo img{
+    width: 90px;
+    height: 80px;
+}
+.manhinh .gioithieu2 .gt2cn{
+    display: flex;
+}
+.manhinh .gioithieu2 .gt2cn .gt2cnn{
+    padding-left: 90px;
+    padding-top: 25px;
+    color: yellow;
+    font-weight: bold;
+}
+.manhinh .gioithieu2 .gt2cn .gt2cnn .cn{
+    color: #00ffff;
+    text-decoration: none;
+}
+.manhinh .gioithieu2 .gt2cn .gt2cnn .cn:hover{
+    color:red;
+    font-size: 18px;   
+}
+.manhinh .menu{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    background-image: url(img_bg_megamenu.png);
+    height: 50px;
+    background-color: #ffbb00ea;
+}
+.manhinh .menu .menuu{
+
+    display: flex;
+    list-style-type: none;
+}
+.manhinh .menu .menuu .menucn{
+    padding-right: 45px;    
+    display: flex;
+
+}
+.manhinh .menu .menuu .menucn .mcn{
+    color: rgb(184, 8, 184);
+    font-weight: bold;
+    font-size:20px ;
+    text-decoration: none;
+}
+.manhinh .menu .menuu .menucn .mcn:hover{
+    color: red;
+}
+.manhinh .menu .timkiem{
+    display: flex;
+} 
+.manhinh .menu .timkiem .tim .txttim{
+    border-radius: 14px 0 0 14px;
+    width: 150px;
+    height: 30px;
+} 
+.manhinh .menu .timkiem .buttomtk{
+    padding-left: 5px;
+    font-size: 20px;
+}
+.manhinh .menu .timkiem .buttomtk a{
+    color: white;
+} 
+.manhinh .menu .timkiem .buttomtk a:hover{
+    color: red;
+} 
+.manhinh .menu .giohang{
+    margin-left: 20px;  
+}
+.manhinh .menu .giohang .gh{
+    color: rgb(184, 8, 184);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.manhinh .menu .giohang .gh:hover{
+    color: red;
+}
+.manhinh .menu .menuu .menucn .menucon{
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    cursor: default;
+    width: 200px;
+    margin-top: 35px;
+    padding-left: 0px;
+    visibility: hidden;
+    transition: 0.2s;
+    margin-left: 30px;
+}
+.manhinh .menu .menuu .menucn:hover .menucon{
+    visibility:visible;
+    margin-left: 0px;
+}
+.manhinh .menu .menuu .menucn .menucon .menu1con{
+    list-style-type: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.manhinh .menu .menuu .menucn .menucon .menu1con .menu1con1{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.manhinh .menu .menuu .menucn .menucon .menu1con .menu1con1:hover{
+    color: rgb(236, 33, 33);
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.manhinh .than{
+    margin: auto;
+    width: 1300px;
+    background-color: #361212da;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid yellow;
+}
+.manhinh .than .tieudesp{
+    color: #00ffa1;
+}
+.manhinh .than .tieudesp .trangchu{
+    color: #00ffa1;
+    text-decoration: none;
+}
+.manhinh .than .tieudesp .trangchu:hover{
+    color: red;
+    text-decoration:underline;
+}
+.manhinh .than .thongtinmua{
+    display: flex;
+    padding-bottom: 30px;
+}
+.manhinh .than .thongtinmua .ttsp{
+    color: #f2ff00;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    border-right: 1px solid white;
+}
+.manhinh .than .thongtinmua .ttsp .gia{
+    color: #00ff00;
+}
+.manhinh .than .thongtinmua .ttsp .tinhtrang{
+    font-size: 15px;
+    font-weight: normal;
+}
+.manhinh .than .thongtinmua .thuoctinhsp{
+    padding-left: 20px;
+    color: #ffd400;
+    font-weight: bold;
+    
+}
+.manhinh .than .thongtinmua .thuoctinhsp .kichthuoc{
+    font-size: 14px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .kichthuoc .size{
+    display: flex;
+    color: white;
+    margin-top: 5px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .kichthuoc .size .size1{
+    border: 1px solid white;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    background-color: #4a4334;
+    padding-top: 2px;
+    margin-right: 10px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .kichthuoc .size .size1:hover{
+    background-color: darkorchid;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .mausac{
+    font-size: 14px;
+    margin-top: 10px;   
+}
+.manhinh .than .thongtinmua .thuoctinhsp .mausac .mau{
+    display: flex;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .mausac .mau .mau1{
+    width: 40px;
+    border: 1px solid green;
+    height: 30px;
+    margin-right: 10px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .mausac .mau .mau1:hover{
+    border: 3px solid yellow;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .soluong{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .soluong .txtsoluong{
+    width: 50px;
+    margin-top: 5px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang{
+    display: flex;
+    margin-top: 20px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .hinha{
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    color: white;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .chucnangmh1{
+    display: flex;
+    margin-right: 30px;    
+    border: 1px solid white;
+    background-color: #ff0000;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .chucnangmh2{
+    display: flex;
+    border: 1px solid white;
+    background-color: #ff0000;   
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .chucnangmh1:hover{
+    background-color: #00ffa1;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .chucnangmh2:hover{
+    background-color: #00ffa1;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .chucnangmh1 .tencn1{
+    color: white;
+    width: 145px;
+    padding-top: 10px;
+}
+.manhinh .than .thongtinmua .thuoctinhsp .muahang .chucnangmh2 .tencn2{
+    color: white;
+    width: 145px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.manhinh .than .ttsanpham{
+    display: flex;
+}
+.manhinh .than .ttsanpham .hinhanhsp{
+    border: 1px solid white;
+}
+.manhinh .than .ttsanpham .hinhanhsp img{
+    width: 500px;
+}
+.manhinh .than .ttsanpham .thongtinctsp{
+    color: yellow;
+    margin-left: 120px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 550px;
+    height: 170px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.manhinh .than .motasp{
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.manhinh .than .motasp .mota{
+    color: orange;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+}
+.manhinh .than .motasp .hinhchitiet{
+    margin-left: 252px;
+}
+.manhinh .than .motasp .hinhchitiet img{
+    width: 700px;
+    margin-bottom: 30px;
+}
+.manhinh .than .binhluandanhgia{
+    margin-top: 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.manhinh .than .binhluandanhgia .binhluan{
+    color: orange;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+}
+.manhinh .than .binhluandanhgia .danhgia{
+    height: 200px;
+}
+.manhinh .than .splienquan{
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-bottom: 20px;
+}
+.manhinh .than .splienquan .splq{
+    color: orange;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.manhinh .than .splienquan .danhsach{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top:  2px solid orangered;
+    border-bottom:  2px solid orangered;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.manhinh .than .splienquan .danhsach .sp1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1{
+    width: 247px;
+    border: 1px solid yellow;
+    position: relative;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .ttsp1{
+    border: 4px solid purple;
+    background-color: #10644b88;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1:hover .layer2{
+    visibility: visible;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2{
+    width: 245px;
+    height: 303px;
+    background-color: rgba(33, 70, 119, 0.836);
+    z-index: 1;
+    top: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .ttsp1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid orange;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .ttsp1:hover a{
+    color:red;
+    text-decoration: none;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .ttctsp1{
+    padding-top: 20px;
+    padding-left: 10px;
+    color:red;
+    font-weight: bold;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .themgiohang{
+    background-color: orange;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 40px;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .themgiohang:hover{
+    border: 2px solid white;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .themgiohang .themvaogiohang{
+    text-decoration: none;
+    color: black;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .layer2 .themgiohang:hover a{
+    color:rgb(31, 184, 31);
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 img{
+    width: 245px;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .ttsp1 .tensp{
+    color:yellow;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.manhinh .than .splienquan .danhsach .sp1 .layer1 .ttsp1 .giasp{
+    color:rgb(8, 192, 8);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.manhinh .lienhe{
+    margin-top: 30px;
+    width: 1300px;
+    margin: auto;
+    background-color: #361212da;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.manhinh .lienhe .thanhtoan .thanhtoandongian{
+    font-size: 18px;
+    color:yellow;
+    font-weight: bold;
+}
+.manhinh .lienhe .thanhtoan .thanhtoandongian a{
+    padding-left: 30px;
+}
+.manhinh .lienhe .thanhtoan .tttaikhoannganhang{
+    color: #00ffff;
+}
+.manhinh .lienhe .thanhtoan .tttaikhoannganhang p{
+    padding-top: 20px;
+    font-size: 18px;
+    color:yellow;
+    font-weight: bold;
+}
+.manhinh .lienhe .thanhtoan .tttaikhoannganhang span{
+    color: red;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.manhinh .lienhe .thanhtoan .thanhtoandongian img{
+    width: 50px;
+    height: 40px;
+}
+.manhinh .lienhe .diachi p{
+    font-size: 18px;
+    color:yellow;
+    font-weight: bold;
+}
+.manhinh .lienhe .diachi{
+    color: #00ffff;
+}
+.manhinh .lienhe .thongtingioithieu{
+    font-size: 18px;
+    color:yellow;
+    font-weight: bold;
+}
+.manhinh .lienhe .thongtingioithieu a{
+    color: #00ffff;
+    text-decoration: none;
+}
+.manhinh .lienhe .thongtingioithieu a:hover{
+    font-size: 25px;
+}
